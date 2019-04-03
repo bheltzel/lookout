@@ -1,0 +1,18 @@
+# gitignore this file!
+
+se:
+ 'bryce':
+    name: 'Bryce Heltzel'
+    photo: 'https://wwwstatic.lookercdn.com/people/team/bryce_heltzel_v0001.jpg'
+    email: 'bryce@looker.com'
+    token_git: 'git_token'
+ae:
+ 'chris':
+    name: 'Chris Daniel'
+    photo: 'https://i.imgur.com/oQ3pm4C.jpg'
+    email: 'cdan@looker.com'
+hosts:
+ 'saleseng':
+    host: 'saleseng.dev'
+    secret: 'secret'
+    token: 'token'
