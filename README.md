@@ -16,7 +16,7 @@ Get last 50 queries run.
 
 
 ## Usage
-Usage:
+Usage:  
   lookout new <host> [--sa | --eu | --au]  
   lookout usage <host>  
   lookout conns <host>  

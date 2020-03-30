@@ -170,6 +170,7 @@ class LookerApi(object):
     def run_inline_query(self,body={}):
             url = '{}{}/run/json'.format(self.host,'queries')
             # 
+            print(self.session.headers)
             params = json.dumps(body)
             r = self.session.post(url,data=params)
             if r.status_code == requests.codes.ok:

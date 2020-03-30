@@ -73,7 +73,7 @@ class Usage(Base):
 
 
     def conn(self, host):
-        from lookerapi import LookerApi
+        from .lookerapi import LookerApi
         import yaml
 
         f = open('config.yml')

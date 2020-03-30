@@ -9,6 +9,9 @@ class New(Base):
     debug = False
  
     def run(self):
+        import sys
+        print(sys.version)
+
         from lookerapi import LookerApi
         from pprint import pprint
         from github import Github
@@ -175,15 +178,15 @@ class New(Base):
 
         # turn on labs features + update
         # no can do
-        print 'Turn on Labs: ' + 'https://' + host + '.looker.com/admin/labs'
+        print('Turn on Labs: ' + 'https://' + host + '.looker.com/admin/labs')
         # print '/stories/' + host + '/1_home.md'
 
         # invite users
         # no can do
-        print 'Invite Users: ' + 'https://' + host + '.looker.com/admin/users'
+        print('Invite Users: ' + 'https://' + host + '.looker.com/admin/users')
 
         # ------- Done -------
-        print "fin"
+        print("fin")
 
     def conn(self, host):
         from lookerapi import LookerApi
